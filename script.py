@@ -1,6 +1,6 @@
 class Script(object):
 
-    START_MSG = """<b>Hy I am your friendly neighborhood movie seeker ✨❤️ {},
+    START_MSG = """<b>Hy I am your friendly movie seeker ✨❤️ {},
 
 I'm an advanced filter bot with many capabilities!
 There is no practical limits for my filtering capacity :)
@@ -9,8 +9,7 @@ See <i>/help</i> for commands and more details.</b>
 """
 
 
-    HELP_MSG = """
-<i>Add me as admin in your group and start filtering :)</i>
+    HELP_MSG = """<i>Add me as admin in your group and start filtering :)</i>
 
 
 <b>Basic Commands;</b>
