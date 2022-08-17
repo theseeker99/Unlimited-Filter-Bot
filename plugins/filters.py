@@ -67,14 +67,14 @@ async def addfilter(client, message):
     text = extracted[0].lower()
    
     if not message.reply_to_message and len(extracted) < 2:
-        await message.reply_text("Add some content to save your filter!", quote=True)
+        await message.reply_text("Add some content to save your filter ;)", quote=True)
         return
 
     if (len(extracted) >= 2) and not message.reply_to_message:
         reply_text, btn, alert = parser(extracted[1], text)
         fileid = None
         if not reply_text:
-            await message.reply_text("You cannot have buttons alone, give some text to go with it!", quote=True)
+            await message.reply_text("You cannot have buttons alone, give some text to go with it!!!", quote=True)
             return
 
     elif message.reply_to_message and message.reply_to_message.reply_markup:
